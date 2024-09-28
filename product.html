@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriCart Products</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+            color: #fff;
+        }
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .category {
+            margin-bottom: 50px;
+        }
+        .category h2 {
+            font-size: 36px;
+            color: #4CAF50;
+            margin-bottom: 30px;
+        }
+        .items {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .item {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .item:hover {
+            transform: translateY(-10px);
+        }
+        .item h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .item p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .item button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .item button:hover {
+            background-color: #45a049;
+        }
+        .item .view-button {
+            background-color: #45a049;
+            margin-left: 5px;
+        }
+        .item .view-button:hover {
+            background-color: #389d3b;
+        }
+        .item select {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .item select:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AgriCart Products</h1>
+    </header>
+    <nav>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/home.html">Home</a>
+        <a href="#vegetables">Vegetables</a>
+        <a href="#millets">Millets</a>
+        <a href="#fruits">Pre-Booking Fruits</a>
+        <a href="#contact">Contact Us</a>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/sign%20up.html">Sign Up</a>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/sign%20in.html">Sign In</a>
+    </nav>
+    <div class="content">
+        <div class="category" id="vegetables">
+            <h2>Vegetables</h2>
+            <div class="items">
+                <div class="item">
+                    <h3>Brinjal</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjr9H8jQEtJTorwuVqYJ7kBcpNVH2GuHvGBKw5Uj2ZvtOV1-I_PgpLLvw_deUISSn7X3c&usqp=CAU" alt="Brinjal">
+                    <p>No. of days to be delivered</p>
+                    <select>
+                        <option value="30mins">within 30 mins</option>
+                        <option value="today">within today</option>
+                        <option value="1week">within 1 week</option>
+                    </select>
+                    <button class="view-button" onclick="location.href='file:///C:/Users/Monika/Desktop/agricart/brinjal%20view.html'">View</button>
+
+                </div>
+                <div class="item">
+                    <h3>Tomato</h3>
+                    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202010/tomatoes_for_glowing_skin_1200x768.jpeg" alt="Tomato">
+                    <p>No. of days to be delivered</p>
+                    <select>
+                        <option value="30mins">within 30 mins</option>
+                        <option value="today">within today</option>
+                        <option value="1week">within 1 week</option>
+                    </select>
+                    <button class="view-button" onclick="location.href='file:///C:/Users/Monika/Desktop/agricart/tomato%20view.html'">View</button>
+                </div>
+                <div class="item">
+                    <h3>Potato</h3>
+                    <img src="https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg" alt="Potato">
+                    <p>No. of days to be delivered</p>
+                    <select>
+                        <option value="30mins">within 30 mins</option>
+                        <option value="today">within today</option>
+                        <option value="1week">within 1 week</option>
+                    </select>
+                    <button class="view-button" onclick="location.href='file:///C:/Users/Monika/Desktop/agricart/potato%20view.html'">View</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="category" id="millets">
+            <h2>Millets</h2>
+            <div class="items">
+                <div class="item">
+                    <h3>Foxtail Millet</h3>
+                    <img src="https://www.croptrust.org/fileadmin/_processed_/b/2/csm_Small_foxtail_millet_4ea404745c.jpeg" alt="Foxtail Millet">
+                    <p>No. of days to be delivered</p>
+                    <select>
+                        <option value="30mins">within 30 mins</option>
+                        <option value="today">within today</option>
+                        <option value="1week">within 1 week</option>
+                    </select>
+                    <button class="view-button">View</button>
+                </div>
+                <div class="item">
+                    <h3>Sorghum</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Jowar%E2%80%8C_Sorghum.jpg/1024px-Jowar%E2%80%8C_Sorghum.jpg" alt="Sorghum">
+                    <p>No. of days to be delivered</p>
+                    <select>
+                        <option value="30mins">within 30 mins</option>
+                        <option value="today">within today</option>
+                        <option value="1week">within 1 week</option>
+                    </select>
+                    <button class="view-button">View</button>
+                </div>
+                <div class="item">
+                    <h3>Green Gram</h3>
+                    <img src="https://img2.exportersindia.com/product_images/bc-small/2024/6/10323715/green-moong-dal-1718098494-7475199.jpeg" alt="Green Gram">
+                    <p>No. of days to be delivered</p>
+                    <select>
+                        <option value="30mins">within 30 mins</option>
+                        <option value="today">within today</option>
+                        <option value="1week">within 1 week</option>
+                    </select>
+                    <button class="view-button">View</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="category" id="fruits">
+            <h2>Pre-Booking Fruits</h2>
+            <div class="items">
+                <div class="item">
+                    <h3>Mango</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Hapus_Mango.jpg" alt="Mango">
+                    <p>No. of days to be delivered</p>
+                    <select>
+                        <option value="30mins">within 30 mins</option>
+                        <option value="today">within today</option>
+                        <option value="1week">within 1 week</option>
+                    </select>
+                     <button class="view-button" onclick="location.href='file:///C:/Users/Monika/Desktop/mango%20view.html'">View</button>
+                </div>
+                <div class="item">
+                    <h3>Apple</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg" alt="Apple">
+                    <p>No. of days to be delivered</p>
+                    <select>
+                        <option value="30mins">within 30 mins</option>
+                        <option value="today">within today</option>
+                        <option value="1week">within 1 week</option>
+                    </select>
+                    <button class="view-button">View</button>
+                </div>
+                <div class="item">
+                    <h3>Orange</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Orange-Fruit-Pieces.jpg" alt="Orange">
+                    <p>No. of days to be delivered</p>
+                    <select>
+                        <option value="30mins">within 30 mins</option>
+                        <option value="today">within today</option>
+                        <option value="1week">within 1 week</option>
+                    </select>
+                    <button class="view-button">View</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

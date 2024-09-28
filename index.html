@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriCart</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+            color: #fff;
+        }
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .intro {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+        .intro img {
+            max-width: 40%;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .intro-text {
+            max-width: 60%;
+            text-align: left;
+        }
+        .intro h2 {
+            font-size: 48px;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        .intro p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .intro button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .intro button:hover {
+            background-color: #45a049;
+        }
+        .vegetables {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .vegetable {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .vegetable:hover {
+            transform: translateY(-10px);
+        }
+        .vegetable h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .vegetable img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .vegetable p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .vegetable button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .vegetable button:hover {
+            background-color: #45a049;
+        }
+        .vegetable .view-button {
+            background-color: #45a049;
+            margin-left: 5px;
+        }
+        .vegetable .view-button:hover {
+            background-color: #389d3b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to AgriCart</h1>
+    </header>
+    <nav>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/home.html">Home</a>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/product.html">Products</a>
+        <a href="#guide">Customer Guide</a>
+        <a href="#contact">Contact Us</a>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/sign%20up.html">Sign Up</a>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/sign%20in.html">Sign In</a>
+    </nav>
+    <div class="content" id="home">
+        <div class="intro">
+            <img src="https://www.livemint.com/lm-img/img/2024/02/29/1600x900/PaddyTransplant_1709205099567_1709206171710.jpg" alt="farmer">
+            <div class="intro-text">
+                <h2>AGRICART</h2>
+                <p>Welcome to our innovative Farm-to-Customers Organic Produce Platform, connecting farmers directly with urban consumers.</p>
+                <button onclick="location.href='file:///C:/Users/Monika/Desktop/agricart/product.html'">Get Started</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

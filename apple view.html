@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Varieties - AgriCart</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+            color: #fff;
+        }
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .product-details {
+            margin-bottom: 50px;
+        }
+        .product-details h2 {
+            font-size: 36px;
+            color: #4CAF50;
+            margin-bottom: 30px;
+        }
+        .varieties {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .variety {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .variety:hover {
+            transform: translateY(-10px);
+        }
+        .variety h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .variety img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .variety p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .variety button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .variety button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Apple Varieties</h1>
+    </header>
+    <nav>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/home.html">Home</a>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/product.html">Products</a>
+        <a href="index.html#guide">Customer Guide</a>
+        <a href="index.html#contact">Contact Us</a>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/sign%20up.html">Sign Up</a>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/sign%20in.html">Sign In</a>
+    </nav>
+    <div class="content">
+        <div class="product-details" id="apple-details">
+            <h2>Apple Varieties</h2>
+            <div class="varieties">
+                <div class="variety">
+                    <h3>Gala Apple</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_hrZpsVLwC8WwvP1_h4MFKgqd7a3oSyhqAg&s" alt="Gala Apple">
+                    <p>Farmer: John Doe</p>
+                    <p>Price: $3/kg</p>
+                     <button onclick="location.href='file:///C:/Users/Monika/Desktop/agricart/buy%20now.html'">Buy Now</button>
+                </div>
+                <div class="variety">
+                    <h3>Fuji Apple</h3>
+                    <img src="https://www.fruits365.shop/cdn/shop/products/1641959566338-fujiappleCHN_png.jpg?v=1645020457" alt="Fuji Apple">
+                    <p>Farmer: Jane Smith</p>
+                    <p>Price: $3.5/kg</p>
+                    <button onclick="location.href='file:///C:/Users/Monika/Desktop/agricart/buy%20now.html'">Buy Now</button>
+                </div>
+                <div class="variety">
+                    <h3>Granny Smith Apple</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCe_Lq9BYiw75fsiBrMG8_s0imSyGxjQGqg&s" alt="Granny Smith Apple">
+                    <p>Farmer: Bob Brown</p>
+                    <p>Price: $4/kg</p>
+                    <button onclick="location.href='file:///C:/Users/Monika/Desktop/agricart/buy%20now.html'">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

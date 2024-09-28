@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - AgriCart</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+            color: #fff;
+        }
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .form-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-container button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .form-container button:hover {
+            background-color: #45a049;
+        }
+        .form-container .signup-link {
+            margin-top: 20px;
+            display: block;
+            color: #333;
+        }
+        .form-container .signup-link a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .form-container .signup-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sign In to AgriCart</h1>
+    </header>
+    <nav>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/home.html">Home</a>
+        <a href="file:///C:/Users/Monika/Desktop/product.html#home">Products</a>
+        <a href="#guide">Customer Guide</a>
+        <a href="#contact">Contact Us</a>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/sign%20up.html">Sign Up</a>
+        <a href="file:///C:/Users/Monika/Desktop/agricart/sign%20in.html">Sign In</a>
+    </nav>
+    <div class="content">
+        <div class="form-container">
+            <h2>Sign In</h2>
+            <form action="your_login_processing_script.php" method="post">
+                <input type="email" name="email" placeholder="Email ID" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+            </form>
+            <div class="signup-link">
+                Don't have an account? <a href="file:///C:/Users/Monika/Desktop/agricart/sign%20up.html">Sign up</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
